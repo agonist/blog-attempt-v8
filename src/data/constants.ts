@@ -1,22 +1,7 @@
-export const MENU_LINKS = [
-	{
-		title: "Home",
-		path: "/",
-	},
-	{
-		title: "About",
-		path: "/about",
-	},
-	{
-		title: "Blog",
-		path: "/posts",
-	},
-];
+export const MENU_LINKS = [];
 
-// ! Remember to add your own socials
 export const SOCIAL_LINKS = {
-	github: "https://github.com/chrismwilliams/astro-cactus",
-	twitter: "https://github.com/chrismwilliams/astro-cactus",
-	discord: "https://github.com/chrismwilliams/astro-cactus",
-	email: "me@example.com",
+	github: "https://github.com/agonist",
+	twitter: "https://twitter.com/agonist42",
+	email: "bastien@whenmoon.xyz",
 };

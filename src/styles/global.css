@@ -24,7 +24,7 @@
 	}
 
 	html {
-		@apply h-full scroll-smooth border-t-2 border-textColor;
+		@apply h-full scroll-smooth;
 	}
 
 	html body {
@@ -34,3 +34,7 @@
 
 @tailwind components;
 @tailwind utilities;
+
+.gradient-text {
+	@apply bg-gradient-to-br from-emerald-300 via-green-400 to-cyan-600 bg-clip-text text-transparent;
+}
